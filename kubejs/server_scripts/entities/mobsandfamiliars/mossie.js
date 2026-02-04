@@ -9,7 +9,6 @@
   });
   EntityJSEvents.buildBrain("mobsandfamiliars:mossie", (event) => {
     const activitybehaviors = [
-      event.behaviors.animalMakeLove("mobsandfamiliars:mossie", 10),
       event.behaviors.followTemptation((entity) => {
         return 1;
       }),
